@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
+/* Тут были изменения */
+
 if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
     if(DEFINED ENV{VITASDK})
         set(CMAKE_TOOLCHAIN_FILE "$ENV{VITASDK}/share/vita.toolchain.cmake" CACHE PATH "toolchain file")
